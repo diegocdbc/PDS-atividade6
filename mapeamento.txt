@@ -1,0 +1,12 @@
+#Requisitos
+a) Implemente uma cópia profunda (deep copy) do baralho aplicando o padrão
+Prototype;
+b) Dentre os padrões vistos até o momento, identifique e aplique ao código aquele que
+melhor se adequa à necessidade de se obter um baralho específico para sueca, e que
+contemple seus valores de pontuação;
+c) Apresente o diagrama de classes final da solução.
+
+#Possibilidades
+1- Criar um builder para criar vários tipos de deck de cards
+2- usar template method
+
