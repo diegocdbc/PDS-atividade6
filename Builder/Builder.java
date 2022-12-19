@@ -1,7 +1,10 @@
 package Builder;
 
-import BuiltDeck.BuildDeck;
-
+/**
+ * Interface que será implementada por classes construtoras.
+ * 
+ * @author diegocdbc
+ */
 public interface Builder {
 
     /**
@@ -25,6 +28,9 @@ public interface Builder {
      */
     Builder mountFaces();
 
-    BuildDeck getResultDeck();
+    /**
+     * Método que irá resetar o builder.
+     */
+    void reset();
 
 }

@@ -1,12 +1,20 @@
 package Director;
 
 import Builder.Builder;
-
+/**
+ * Classe director responsável por determinar a ordem de passos para a construção dos decks
+ * 
+ * @author diegocdbc
+ */
 public class Director {
-    public void constructDeckForGeneralUsage(Builder build) {
-        build.mountFaces()
-                .mountSuits()
-                .mountDeck();
-        System.out.println("Director ok!");
+    /**
+     * Método para construção de deck .
+     * 
+     * @param build
+     */
+    public void make(Builder build){
+        build.mountFaces();
+        build.mountSuits();
+        build.mountDeck();
     }
 }
